@@ -1,0 +1,87 @@
+Andrew Salcedo
+Log for AST 4762, Fall 2026
+
+*****IN: Wed Aug 26 15:11:03 EDT 2026
+
+Opened TextEdit, started this log, saved as:
+/Users/Drew/Documents/GitHub/ast4762/0-ast4762-asalcedo.log
+
+Name: Andrew Salcedo
+Username: asalcedo
+What astronomy classes have you taken? 
+Introduction to astronomy, sat in on solar system astronomy
+Are you generally comfortable with calculus and physics?
+yes
+Have you ever programmed a computer?
+yes I have coded on my computer
+In what language(s)?
+Python
+Have you taken a programming class, and if so which?
+Concepts in computer science, Introduction to numerical computing
+Have you taken statistics or probability?
+no
+Will you be attending the DPS conference this year, or will
+you be away otherwise?
+no and no
+Why are you taking this course?
+To enhance my coding skills and learn more about data analysis
+Are there particular topics you hope to learn?
+Spectroscopy and observational astronomy in relation to this course
+If you have programmed outside of a course before, please
+briefly describe: Minor projects and assignments for classes
+If you have worked with scientific data before, briefly
+describe your experience:observed the handling of data in research groups, never directly handled data
+Please describe any projects in astronomy, including
+involvement in amateur groups, owning a telescope,
+research, etc.: A part of Professor Eikenberrys OPA groups working on repairing a spectroscopy box for observations
+
+To make my hw0_asalcedo/ folder I will open my Documents/GitHub/ast4762/hw_asalcedo folder then copy this log file into the hw0_asalcedo/ folder. Then I will turn the entire hw0_asalcedo/ folder into a zip file and submit it on web courses. 
+
+*****OUT: Wed Aug 26 15:32:28 EDT 2026
+
+*****IN: Fri Aug 28 15:01:13 EDT 2026
+
+continued the software installation for mac, following the pdf instructions(webcourses -> files -> handouts_software install -> Mac software installation). Got stuck(mainly due to confusion about instructions and vague results) multiple times during the process. All being trivial after TA Cameron helped me install and set up Visual Studio code and I was informed that since I have a Mac and I already have anaconda installed(and now VisualStudio code) I was ok. Now I am here writing this log after the process has been completed, hoping that everything I need has been installed, now I just need to figure out how to use these apps(I've only ever used JupyterHub). Wondering if I'll also need virtualbox as well, will inquire soon and report back with answer - I do not. class has finish I will ask the TA about his office hours and work on the homework tomorrow.bye.
+
+*****OUT: Fri Aug 28 16:22:52 EDT 2026
+
+*****IN: Sun Aug 30 22:43:19 EDT 2026
+
+ About to continue hw 1, started the assignment in class(as seen in previous entry) where the necessary packages and applications were installed(anaconda, visual studio code). Started my log first now I am about to go and create the hw1 folder and then read the instructions and continue with the assignment, will report back later. The instructions for problem 2, part 1(jupyter screenshot) asks me to explain my method, please find that explanation below 
+	--Problem 2, part 1: The question asked specifically to explain how the screenshot was taken and what version of python is being used. I didn't know what that meant so I looked it up, and typed the corresponding command(python --version) into terminal to find out, I am using version 3.13.9. As for the screenshot, first I opened the anaconda navigator application I have installed through launchpad. Then after opening the anacdona application I navigated to and opened the jupyter notebook application within, after being launched it opened a jupyter notebook window within my browser. From there I once again opened the launchpad and navigated towards the screenshot app, resized the window to properly fit the jupyter notebook tab and then pressed capture, where the screenshot then automatically went to my desktop and I renamed it using proper naming conventions(found in files/handouts/workflow_and_formatting_rules/homework_format_rules_25.pdf) before finally moving the screenshot to the hw1 folder(Documents/GitHub/ast4762/hw_asalcedo/hw1_asalcedo)--
+ while I'm here, I have also managed to follow and complete the same process for question 2 part 2(screenshotting the GitHub desktop app), onto question 3.                   :p
+Im back and having an issue already! the stokes is not working, if you'd like to know the exact error code I am getting here it is!(ssh: connect to host stokes.ist.ucf.edu port 22: Operation timed out), please bear with me while I google this issue. It would seem Im not connected to the UCF VPN after downloading the new application so one more moment while I do that please. I have figured out that you must first open the Cisco Secure Client app first but now Im stuck on how what the domain name is. In case it wasn't abundantly clear this is a wall I cannot climb yet, will move on for now, frustrating delay. :( . Additionally from here on out I will organize log entires by their relevance, I cannot change what was written above so this is for the future, now without further ado question 4.
+	--Problem 4. asked to explain the steps in which the log was copied into the hw1_asalcedo folder how the file was zipped and its submission on webcourses. I regret to inform whomever it may concern but I am unable to complete this problem at this time due to the previous issue in obtaining the UCF VPN domain name and logging into Stokes and so this log entry will be completed here and continued tomorrow before class where it will hopefully be resolved and I may complete this entry and assignment, perhaps I will start naming entries for further clarity, until next time I am finished for tonight.
+
+*****OUT: Sun Aug 30 23:41:01 EDT 2026
+
+*****IN: Mon Aug 31 11:04:10 EDT 2026
+
+a continuation of hw 1(hw 1 part 2:attack of the hw if you will), was not able to figure out how to change my VPN I got a strange error about needing administrator access or permission, will pursue further in class. However since I was on campus and connected to the UCF wifi it was no longer a problem and I was able to log in to Stokes without any issues(although the instruction to type '1s' said that no command could be found so we shall see what that is about later), anyways now that I have all the screenshots I can continue to question 4 which will be answered below. *Note to the reader, previous homework assignment 0 received a comment on how it did not go into enough depth or detail explaining how to copy a log file into the hw folder, zip the hw folder or submitting it on webcourses, so please find an in-depth instruction on how to follow these steps below
+	--Problem 4. How to copy a log into a folder, zip a folder and submit it on webcourses for dummies. To begin we will first copy the log, first you finish your log! saving it and ensuring it is saved as a .log file(not .txt or anything else). then you will right click on the saved log file and duplicate it. Once duplicated you will move the now copied log file into whichever homework folder required(in this case specifically it was hw1_asalcedo), DONT FORGET to rename your log according to proper naming conventions as given by the class(please see last log entry for directions to the naming convention instructions). Congratulations step 1 is complete and you have now copied your log file into your homework folder, moving on to step 2: how to zip the hw folder. Incredibly similar to the previous step you are first going to navigate to the hw1_username folder(not inside but to the foyer itself), then right click once again and there should be an option to compress the folder, this will turn it into a zip file, and double congratulations you now have your zip file for submission. Finally for the last step all that's left to do is log onto your webcourses and navigate to your specific assignment(in this case for me it was hw1) and upload the indicated zip file then press submit assignment. May these instructions be helpful to those who have forgotten and godspeed :).
+  Upon further inspection and collaboration with others in the class I have realized that for question 3 the command to type in might have been ls(as in the letter L letter S, both lowercase) and not 1s(number 1 letter s, lowercase) and so I re-logged into stokes and typed both commands in just in case and will replace the screenshot in hw1_asalcedo with this new one just in case. Not to be redundant or Pedantic but I also typed 11111 and llllll just in case the s was plural and not literal. I am also just now realizing I named the previous screenshots wrong as well(they were labelled for hw 2 not hw 1) so I fixed those. Everything to my knowledge seems to be completed so hw1 has been completed and log entry will be terminated here. until next time. 
+Completed: hw1(across current and last 1 log entry)
+To do: ask in class about accessing VPN
+
+*****OUT: Mon Aug 31 11:34:43 EDT 2026
+
+*****IN: Wed Sep  2 14:33:23 EDT 2026
+
+  General: Figured out how to access VPN it was just being dumb(the pop up box to select whether student or faculty was hidden?) don't really know what was happening with it other than that but hopefully it continues working now. Another note LOG SHOULD BE OPEN IN CLASS(also log should continue to start with a '0', that is so it appears at the top of any files etc. etc. just a naming convention/convenience). Uh last class we went over accessing terminal and the different commands within and what they did, I am still lost but we persevere(also that is like almost all of hw 2 so...) anyways class is starting soon so report back when I have another comment or class is finished:). Did some jupyter notebook stuff and reviewed some python as well. Prof said he might not be here friday but TA cameron will sooo hopefully then he'll remember my name :|. Until friday, or I start hw 2(hopefully before then)
+
+*****OUT: Wed Sep  2 16:21:51 EDT 2026
+
+*****IN: Fri Sep  4 13:10:20 EDT 2026
+
+  General: I did not start hw 2 :'(. BUT WE PERSEVERE, So I am starting now before class. without further ado.
+  HOMEWORK 2(a phantom hw): goal is to become proficient in python, three readings, DO NOT USE LOOPS FOR ANY PROBLEMS IN THIS ASSIGNMENT(instruction).
+	--problem 1: Uh important note the pdf file with all the instructions for basic commands for linux is files>Demos_lectures>week_2>L03>Unix_command_line_101_Stokes. Im not sure if I have to create a secure shell before starting or not first? I will continue normally but that is a question(also what is a secure shell) or if Im supposed to log into stokes. A file and folder are like basically the same thing btw. Creating the directory was no problem, moving it into another one thought, Holy I was able to move it into the same directory as my GitHub folder/directory but moving it inside to get it into the class is where Im having a problem. It says that no such file or directory exists so clearly it is a liar. I forgot about this but I made a separate quick research based sidebar(no more than 15 minutes i promise) and am now in class 5 minutes early, I have received some help so please note: You must change to the intended directory before manipulating files within it(seems very redundant).
+  General: Class has started, will be virtual for the next week(and a half?) Doing some GitHub stuff today. Hw paused for now but did manage to learn how to move files and directories around so moving on to question 2 hopefully I think possibly? they did not even review GitHub there's no class on monday, hw is due before next class. Godspeed future me.
+*****OUT: Fri Sep  4 16:21:11 EDT 2026
+
+*****IN: Mon Sep  7 11:31:59 EDT 2026
+  General: I am back, continuing the herculean assignment that is hw 2, the TA has not posted a GitHub guide so I will be reverting to chatGPT and other classmates, if that doesn't work out then I will be emailing the TA Cameron and hoping he gets back to me in time(why wouldn't he?). 
+  HOMEWORK 2(attack of the hw): same goals and notes as previous log, previously completed mot of problem 1, must finish it
+	--problem 1: Folder(directory) was created and moved into the class(ast4762) hw(hw_asalcedo) folder. Please find below more clear and exact instructions for creating a folder and transporting it into another explained just as I have done it within this assignment(let instructions be henceforth denoted by "")
+  ""first enter your terminal, to make a new folder use the 'mkdir' command, this will create a new directory(this is just another name for a folder) within your home directory, ensure to name it properly though if you forget the terminal should prompt you for a name. Separate note, you can first change your home directory to the desired directory that you'd like to create the new directory in using the command 'cd' typing the command and then the desired directory, this will create the new directory within the desired directory(you can use the command 'pwd' to see the directory you are currently in). However if you are a likeminded individual, then you may have preemptively created the new directory in your current home directory and not your desired one, in this case you have one of two options. You can move the directory using the command 'mv' from the current directory to the new one(command: mv place 1 place 2) however in this case you must also afterwards change your home directory as you can only manipulate files within your current home/working directory, repeating this process(mv file, change directory) until you have moved the file into your desired directory. Another option I am told(though I have not tried) is to also use the same mv command and then typing the file path, which should move the directory along the stated file path to the desired directory.""
+with the directions for making a new directory in terminal I have moved on to creating a jupyter notebook named properly, now it is time to learn how to push files on GitHub be back with instructions for that soon once I actually figure it out. Of course my GitHub folder is not connect to GitHub at all, it's almost comical how linux responds to this error with fatal, as in this is a fatal error. Anyways so now I must fix that first. 
