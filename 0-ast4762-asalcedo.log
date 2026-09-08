@@ -104,4 +104,20 @@ tentative questions: What is ~ for?
 that is all ending log here I will report back with answers hopefully. commenting changes and files to main on GitHub I think
 *****OUT: Tue Sep  8 00:13:59 EDT 2026
 
+*****IN: Tue Sep  8 16:17:05 EDT 2026
+  General1: Dear reader, please look at the date and take note, because it has been done. Eureka, I freaking did it, this is a momentous occasion. the .py file has been safely transported into stokes without issue, AND it was done and figured out before the homework was actually due(with some heavy help from chatgpt). Looking back the solution might be somewhat obvious, so it's a good thing we only look forward. I will now proceed to explain the problem and solution below for those interested.
+  ""If you look at the previous log entry in problem 6c I am asked to copy the hw2_asalcedo.py file into stokes, however while attempting to do this using the 'scp' command I was running into issues with stokes asking for a verification code in which I was not receiving. This as you can imagine was very mystifying and frustrating to the highest degree and after asking many sources for help and finding many dead ends, a long conversation with the LLM chatgpt(GPT-5.6 Luna) revealed the very simple answer, to use the command sftp. Using the sftp command allowed me to successfully transfer the .py file into my hw2_asalcedo folder on stokes. Important note: the command sftp(while still requiring you to log into stokes) does not act as a normal stokes session, you cannot access everything you would be able to on stokes. sftp is instead a file transfer session, not a linux shell. Another note was the the mv command was not used either but instead push. Please see the following for the exact lines of code and commands used in sequence. 
+sftp NID@stokes.ist.ucf.edu
+#log in to stokes using secure file transfer
+lcd ~/Documents/GitHub/ast4762/hw_asalcedo/hw2_asalcedo
+#Tell sftp which folder on laptop(mac) contains file
+put hw2_asalcedo.py /lustre/fs1/home/NID/hw2_asalcedo/hw2_asalcedo.py
+#upload file from computer to stokes
+"""
+anyways back to the hw
+  HOMEWORK 2(a new hw): Fixed issue involving uploading the .py file to stokes, explanation of issue and solution found above, answer and instructions for problem 6c found below.
+	--problem 6c) a continuation and official instructions explaining how to copy your file into your stokes homework folder. Using the command 'sftp' I was able to log into a (file transfer) stokes session. then one logged in I used the 'lcd' command to tell the sftp which folder on my personal laptop the .py file was located in. Finally using the 'put' command I was able to successfully upload the file onto stokes. 
+  General2: Well this was all done posthaste to be quite honest I did not expect to solve the issue, only starting this log entry after resolving it, so that log time may be off by an hour-ish. Ending log here with this urgent update and resolution, will continue later tonight and (hopefully without running into anymore issues) finally submit homework 2. Committing and pushing files to origin. au revoir.
+*****OUT: Tue Sep  8 17:05:14 EDT 2026
+
 *****IN: 
