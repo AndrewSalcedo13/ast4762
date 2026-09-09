@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
+# In[99]:
 
 
 #Andrew Salcedo
@@ -9,7 +9,7 @@
 #September 7, 2026
 
 
-# In[38]:
+# In[105]:
 
 
 import numpy as np
@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 import scipy as sp
 
 
-# In[46]:
+# In[106]:
 
 
 #PROBLEM 2
@@ -46,12 +46,10 @@ print(
 )
 
 
-# In[64]:
+# In[107]:
 
 
 #PROBLEM 3
-get_ipython().run_line_magic('matplotlib', 'notebook')
-get_ipython().run_line_magic('matplotlib', 'widget')
 print("Problem 3: Write the necessary Python commands that:")
 print("a) Plot y vs. x from problem 2c. Make the plot publication-ready using reasonable axis labels etc")
 plt.figure()
@@ -65,12 +63,10 @@ print("b) Save your plot as a PNG using the appropriate Python commands (no scre
 plt.savefig("hw2_asalcedo_problem3_graph1")
 
 
-# In[71]:
+# In[108]:
 
 
 #PROBLEM 4
-get_ipython().run_line_magic('matplotlib', 'notebook')
-get_ipython().run_line_magic('matplotlib', 'widget')
 print("Problem 4 \na) \n a1)Make a “ramp” array r with 101 evenly spaced elements going from -1 to +1")
 r = np.linspace(-1.0, 1.0, 101)
 print(r)
@@ -94,7 +90,7 @@ plt.show()
 plt.savefig("hw2_asalcedo_problem4_graph1.pdf")
 
 
-# In[98]:
+# In[109]:
 
 
 #PROBLEM 5
