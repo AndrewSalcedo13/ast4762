@@ -138,4 +138,54 @@ anyways back to the hw
   General2: Ending log here to actually copy log onto stokes, download the tar.gz file and then submit it on webcourses. this WILL go well and without any issues so, until next time.
 *****OUT: Tue Sep  8 23:37:32 EDT 2026
 
-*****IN: 
+*****IN: Wed Sep  9 14:49:07 EDT 2026
+  General1: In case it was not obvious, the homework submission was successful, additional note, I just learned that the proper naming conventions for all screenshots and graphs is 'graph' not screenshot. Seems incredibly redundant and more confusing than anything but it's not my class so, PLEASE CAMERON HAVE MERCY I DIDNT REALIZE. LET IT BE STATED HENCEFORTH the PROPER naming conventions for any and all screenshots, graphs, .png or .pdf file or whatever is 'hw#_user_problem#_graph#.extension'. Anyways we're in class doing lecture again so yeah, also I got a 100 on homework 1, though there was a comment on the naming conventions of my screenshot as previously stated. They really should have given the comments for hw 1 before the submission deadline for hw 2 huh. Anyways Ill report back later in case of any updates, Ill be in lecture. Prof Harris has gone over but class is basically ended byeeee, actually Ill sign in again for the peer reviews, logging out now, no back up this time.
+*****OUT: Wed Sep  9 16:23:21 EDT 2026
+
+*****IN: Fri Sep 11 14:25:54 EDT 2026
+  General1: Just more lecture, last time we went over like some scientific method and error stuff, identifying the types of error encountered in data. hw3 has been released and is due this upcoming wednesday the 16th so now I have to do that over the weekend :(. Also Peer reviews will be done today because we are going over hw 2 in class for practicum maybe it will be the same next time too. TA Cameron going over hw 2 answers, im not following/copying along. I will takes notes here though. 
+  HOMEWORK 2 REVIEW:
+  --Problem2: x*= the '*=' command is an in place multiplier and just as fast with half as much memory so that is important. Also inside redefining the array, divide by np.max instead of the maximum value it'll just be easier. 
+  --Problem 3: '.png' is more compressed and smaller so better vs. a '.jpeg'.
+ok well that's it we ran out of time for the review now so.
+  PRACTICUM 1: FIRST PRACTICUM. was a mess will report back in once I go further over the weekend, it is now due monday I think. Review multidimensional arrays.
+*****OUT: Fri Sep 11 16:26:54 EDT 2026
+
+*****IN: Sat Sep 12 21:00:01 EDT 2026
+  General1: You see the time and date, you know exactly what happened, the day has wasted away, but this is no time for excuses so it's time to lock in. WE WILL NOT MOVE until practicum 1 is done and hw3 has been started. Also for class yesterday we did not finish going over the hw but did go over the practicum so I did get the professors examples for that, anyways.
+  PRACTICUM 1: WE MADE NO PROGRESS, so this might as well be starting from the beginning anyways so yeah.
+	--Problem1: 
+  a) make a 300x200 float64 array. Each element containing its own x coordinate, starting with x=0 for column 0 and ending with x = 299 for column 299. How to do this with a loop? First make the array, since the array we are tasked with making is SO large the zeros command is much more efficient( array = np.zeros(rows, columns) ) in this case rows=300 and columns = 200. In order to make sure each row's value matches its index, you can use a for-loop to loop through all the row's of the array( for i in range(array.shape[0]) ) and then set the values within the row's equal to their index( array[i, :] = i ). See code below for EX: 
+
+array = np.zeros((300.0, 200.0))      
+for i in range(array.shape[0]):  
+    array[i, :] = i              
+print(array)
+
+  b) How would you do this without using any loops? Luckily the professor Harrington showed a beautifully elegant way of doing this using broadcasting. First creating a one-dimensional array ( coo = np.arange(300) ) then turning the 1-D array into a 2-D array (coo.shape = (300, 1) ) finally creating a second array with the desired shape using the zero's command( arr = np.zeros((300, 200)) ) and then broadcasting the first array onto the second ( arr+=coo ). See code below for EX:
+
+coo = np.arange(300)
+coo.shape = (300, 1)
+arr = np.zeros((300,200))
+arr+=coo
+print(arr)
+
+  c) Display the array using the matplotlib function for showing the image with a map of 'gray'/ WHAT A COINCIDENCE the professor showed us how to do this as well. How fortuitous, see the following line of code for the example. EX. 
+
+put.imshow(arr, cmap = 'gray', origin = 'lower')
+
+imshow displays the given argument(arr in this case) as an image, where each array element is a pixel(which is why the top left of the image is (0,0) because this is also where our array(or matrix is also (0,0), however this is also just the nature of imshow as well ). cmap is the color map(so cmap = 'gray' just makes the image gray). origin = 'lower' just makes it so that instead of the top left corner being the origin, you guessed it it turns the bottom right of the image into the origin(makes row 0 the bottom).
+
+  d) If you are so paranoid you'd like to double check your work and ensure it is 100% up to 'code'(get it), you can do so by simply printing the array or manually choosing and printing random rows within your array. Please see the code below for an EX.
+
+i = 5
+print(f"row: {i}\n array: {array[i, :]}")
+
+where i is any indexed row your heart desires. 
+
+	--Problem2: Repeat the above questions but this time using AI. Here is the prompt I used in Claude: "Could you please make me a 300×200 Float64 array. Each array element should contain its own y coordinate, starting with y = 0 for column 0 and ending with y = 299 for column 299 (i.e., column 0 has 200 zeros). Show how to do this both with and without using a for-loop. Afterwards display the array using the matplotlib function for showing the image with a cmap of ‘gray’ and also examine several randomly placed array elements with Python to be sure the values match the y coordinate in the print statements."
+when writing my prompt I just ensured to keep my wording as precisely and explicitly as possible using the wording of the originally asked questions, this usually gives the wanted outcome, if not further instructions or explanations provide what is needed. 
+	--problem3: INSTALL ASTROPY. I got confused on the directions so I'll have to ask about this in next office hours. I also just want to make sure I understand the Astropy things so yeah but the problem was answered.
+  General2: Finished practicum1, will submit it now, the directions did not specify how to submit but on canvas the assignment said it only accepted a tar file again so I will proceed the same way that was instructed in hw 2, uploading practicum 1 to stokes turning it into a tar file and submitting that so yeah. Ending log here, committing and pushing to GitHub, doing the whole stokes thing then submitting. Then I shall take a break and come back to do my hw 2 peer reviews and start hw 3!!!!! adios.
+*****OUT: Sat Sep 12 23:54:48 EDT 2026
+
