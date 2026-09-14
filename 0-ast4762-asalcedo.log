@@ -203,3 +203,13 @@ d) made and named the function(nothing is currently in it), added the summary of
 e) ah here we are writing the code for the function, I'm stuck. Conceptually the function isn't complicated, take in an input for a value or array, square it and bam done. I am stuck on the input part, the instructions say that the inputted array may be of any dimension but that means asking for multiple inputs no? My original idea is to create a blank array have the user input however many dimensions they'd like within their array and then be prompted to input all those subsequent values as well, but again no for-loops are allowed so Im at the drawing board just trying things for now. I feel like broadcasting might work but again I'm not entirely sure how to go from turning the users input into the number of arguments(dimensions) within the array.I think I have been thinking about it wrong, the function isn't actually supposed to ask for an input. It is possible I am stupid and spent half an hour relearning functions because I forgot how their arguments work. :| . anyways scratch everything I just said just make the function and its argument 'array'(a placeholder variable/argument), then square it and return that value. boom.
   General2: I think I am going to take a step back for some introspection after this humbling mistake I spent far too much time on. Finishing log here and committing to GitHub. Created and coded function, still need to finish its docstring, will be back tonight, hopefully renewed.
 *****OUT: Sun Sep 13 15:51:56 EDT 2026
+
+*****IN: Mon Sep 14 12:29:27 EDT 2026
+  General1: Back at it finished my peer review, continuing with hw3 so without further ado.
+  HOMEWORK 3(attack of the hw): Completing whatever part of the docstring that I can/finsihing the code for the function currently so yeah. Function is made, making docstring now. :( . 
+	--problem 2: I made it to part e, so 
+e) finished writing function in collaboration with classmate. Now also added additional raise type error just in case the user tries to break the function/code(how paranoid). Now for the lovely docstring. FINISHED, its actually kind of confusing
+f) will test 5 data types, float, int, complex, array and string(to show raised error). Test cases are as follows: 3.13, 13, 5j, np.random.randint(1, 5, size=(1, 2, 3)), (" >:P "). no bugs detected with this test cases, except for the string. Time to commit to GitHub.
+
+
+float, int, complex, array, string
