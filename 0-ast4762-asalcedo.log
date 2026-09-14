@@ -210,6 +210,8 @@ e) ah here we are writing the code for the function, I'm stuck. Conceptually the
 	--problem 2: I made it to part e, so 
 e) finished writing function in collaboration with classmate. Now also added additional raise type error just in case the user tries to break the function/code(how paranoid). Now for the lovely docstring. FINISHED, its actually kind of confusing
 f) will test 5 data types, float, int, complex, array and string(to show raised error). Test cases are as follows: 3.13, 13, 5j, np.random.randint(1, 5, size=(1, 2, 3)), (" >:P "). no bugs detected with this test cases, except for the string. Time to commit to GitHub.
+g) docstring updated. Committing to GitHub AGAIN, and taking screenshot of Git log history.
+
 
 
 float, int, complex, array, string
