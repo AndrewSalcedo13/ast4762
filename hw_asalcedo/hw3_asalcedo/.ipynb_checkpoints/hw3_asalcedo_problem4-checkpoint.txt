@@ -1,0 +1,25 @@
+Rubric for question 3: creating squareplot function
+20 points total, 4 categories(5 points each): (1)Creating function name and proper arguments, (2)Function docstring, (3)Function code, (4)importing and calling function
+
+Category 1: Creating function and file(name and arguments) (5 pts)
+descrpition: Is the function reasonably named(function name makes sense/is relevant and is not in conflict with any other parts of the code), are all required arguments present and reasonably named as well(variable/argument names make sense/are relevant and not in conflict with any other parts of the code)
+   full credit(5 pts): Function name is relevant and not too long/short or overly descriptive/non-descript as well as contained in seperate .py support function file document. All required Function arguments present and follow same reasonable naming conventions(make sense not named in any extreme ways). File also follows proper naming convention
+   half credit(2.5 pts): Function mostly named properly(confusing in some way, did not follow instuctions in named function), still contained in seperate .py support function file or at least function is directly within main code. Some required function arguments missing or misnamed(not named according to instructions, named in confusing/conflicting way)
+   no credit(0 pts): Function absent or completely named in a wrong or confusing way. No required function arguments present or named porperly, conflicting or confusing names
+
+Category 2: Docstring (5 pts)
+description: Are all required sections of the docstring present? do all required sections contain the proper and relevant information?
+   full credit(5 pts): All required sections of docstring are present and contain all the relevant information in a clear and explicit way for readers to understand.
+   half credit(2.5 pts): Some sections missing from docstring, directions or information is unclear to readers, some information does not match function
+   no credit(0 pts): docstring not present or most/all sections completely missing from docstring. Information in docstring does not relate to function at all or is completely incomprehensible to readers.
+
+Category 3: Function code (5 pts)
+descrption: Is code debugged and optimized? Does it run properly including edge cases? Is the code well-commented on and concise(not unecessariy long)?
+   full credit(5 pts): Code is present, concise and well commented on. Runs quickly and efficiently for all test cases.
+   partial credit(2.5 pts): Code runs but is not optomized, well commented on or does not work in all test cases, not organized either.
+   no credit(0 pts): code is missing or does not run for any test cases, little or no comments with little organization either.
+
+Category 4: Function import and call/running it (5pts)
+   full credit(5 pts): Function or file is imported properly from a .py file, function can be called properly and runs as should for all test cases
+   partial credit(2.5 pts): Function(if imported) or file is still imported from a .py(or other) file, function can be called but does not work for all test cases. Function written directly in main file.
+   no credit(0 pts): No file or function from any file is imported, or function is imported but does not function. Function cannot be called and is not presenet anywhere in code or does not run properly for any test cases.

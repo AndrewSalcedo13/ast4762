@@ -1,9 +1,6 @@
-import os
 import numpy as np
-import scipy as sp
-import matplotlib as mpl
 import matplotlib.pyplot as plt
-import astropy.io.fits as fits
+
 
 
 def square(array):
@@ -48,34 +45,50 @@ def square(array):
     return array0
 
 
-def squareplot(lrange, hrange, points, saveplot = false):
+def squareplot(lrange, hrange, points, saveplot = False):
     """
     takes in low range, high range and number of points to plot over specified range as well as
     additional optional argument to save plot. From this information, function will plot results
     using given range against previous square function, optionally saving it according to input.
 
+    Variables
+    ---------------
+    xarray: array, creates a array from arguments
+    yarray: array, creates array using square function(with xarray as its argument to do so)
+    
     Parameters
     ------------
-    lrange: 
-    hrange: 
-    points: 
-    saveplot: 
+    lrange: low range of points inputted, integer or float
+    hrange: high range of points inputted, integer or float
+    points: number of points desired in plot, integer
 
     Returns
     ---------
-    what will function return: dtype, \n explanation
+    no returns
 
     Other Parameters
     -----------------
-    confusing idk what this is supposed to mean, I think its none but idk
+    saveplot: additional optional argument used to name and save the plot created(automatically save as .pdf), string
 
     Raises
     -------
-    what wont work in this function
-    saveplot argument cannot have extension, extension already included
+    lrange, hrange: will not take in strings, lists, or arrays
+    saveplot: argument must be a string and cannot have an extension, extension already included(saved as .pdf)
+    
     See Also
     -----------
-    other function(square): relationship explanation
+    other functions used.
+    Square: inputted arguments create array, 'arrayx', arrayx is used in the square function and its result is the array y, 'yarray',
+    which it is then plotted.
+
+    Notes
+    ---------
+    function creates array, so squareplot cannot take in array's.
+
+    Example
+    ----------------
+    >>>squareplot(0, 10, 6, 'plot')
+    >>>plot.pdf
     """
     #a) create x array of evenly spaced elements up to and including high range
     xarray = np.linspace(lrange, hrange, points)
@@ -83,14 +96,13 @@ def squareplot(lrange, hrange, points, saveplot = false):
     yarray = square(xarray)
     #c) plot
     plt.figure()
-    plt.plot(x, y)
+    plt.plot(xarray, yarray)
     plt.title('Square function')
-    plt.xlabel('x array')
-    plt.ylabel('y array')
+    plt.xlabel('input')
+    plt.ylabel('output')
     # save plot
-    if saveplot not false:
+    if saveplot is not False:
         plt.savefig(saveplot + ".pdf")
     plt.show()
-    
     
     
