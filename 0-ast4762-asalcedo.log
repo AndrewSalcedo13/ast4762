@@ -266,3 +266,10 @@ General1: Took quiz 1 today on mean median mode, 3 types of errors and gaussian 
 	--problem 6: I did use AI to ensure that I was understanding the assignment directions properly. it got complicated, lots of loops and if statements, used a dictionary to store the data and blah blah.
   General1: Finished practicum, didn't ask for any other explanations of things in log so continuing on. Converting to .py files and etc. then submitting on stokes. Ending log here to push and commit changes to GitHub then submit.
 *****OUT: Sun Sep 20 13:54:39 EDT 2026
+
+*****IN: Sun Sep 20 16:10:51 EDT 2026
+  General1: Took a break now starting hw 4
+  HOMEWORK 4(a phantom hw): should be similar to the practicum 2. Goal is to be able to read parse and write ASCII data files and also do mean median mode and calculate gaussian and poisson distribution so we'll see. I will continue when I have notes or the homework requires an answer within the log. Instructions did not ask for nay comments, explanations or instructions in log, hw4 for ast4762 is completed. Will attempt to do the extra credit problems offered not the hw(for ast5765). Finished the extra credits and  my notes on it, everything is set and ready to be handed into stokes now, first turning .ipynb file into a .py file then uploading all of it to stokes.
+	--problem 4: Testing code works in stokes and submitting it. For further instructions please refer to log entry 'Tue Sep 15 15:24:35 EDT 2026' for homework 3, entry 'HOMEWORK 3(hw strikes back)'. The same in depth instructions were followed.
+General2: Ending log here, committing and pushing changes to GitHub to take screenshot, then running through stokes and submitting. Bye.
+*****OUT: Sun Sep 20 19:37:07 EDT 2026
