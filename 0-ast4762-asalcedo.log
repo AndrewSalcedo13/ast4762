@@ -289,3 +289,15 @@ General1: Back in class actually starting practicum 3, did a little prep beforeh
 a) read in the data with loadtxt(better for data files, no strings and reads in as array), separated the two data sets. plotted model 1, plot looks weird and scribbly.
 b) Fit the data from model 1, the data points have an uncertainty in the y of 0.5, this means that there is a possible 0.5 error in the y values, the closer the your uncertainty is to 1(or farther) the farther from the mean or true value you go., skewing a plot for example. finished here
 *****OUT: Fri Sep 25 16:22:57 EDT 2026
+
+*****IN: Sat Sep 26 12:49:16 EDT 2026
+ General1: Plan today is to lock in and knock out practicum 3 and the homework, making sure Im good on the topics because there is a quiz on wednesday about the formula for basic statistics, gaussian distribution and the error propogation equation as well as error arithmetic. Anyways moving on.
+   PRACTICUM 3(attack of the practicum): back working on the practicum it looks like previously in class I was able to complete problem 1 parts a and b so Ill recap those quickly below then move on.
+	--problem 1:
+ b) used function to fit data 1 to a linear model. the value of the uncertainty has a large affect on the value of chi square and hence reduced-chi square making your plot invalid, you won't know if your model actually fits. A small std will give you a large chi-square and a large std will give you a smaller chi-square. The fitted parameters of the model are a(fitted intercept), b(fitted slope), a_unc(std of fitted intercept), b_unc(std of fitted slope). Yes the fitted parameters are within 3 std of the parameters of the true line.
+ c) 83.9% chance of getting a the same chi square value or higher
+ d)repeating parts b and c but for model 2. The linear model does not fit the data very well. This is because the data is quadratic in shape, meaning a linear model will not graph it very well. An additional reason is the std is very high, affecting the chi-square and reduced chi-square(making it very large), showing the model is not a good fit for the data. The given linear model is the best linear fit for the data from model 2, however a non-linear or quadratic fit might suit the data from model 2 and fit it better.
+ General2: Finished problem 1 from the practicum 3. I understand chi-square and reduced chi-square(I think) better now, taking a break before moving on to problem 2 and essentially starting the hw(5) BRB :/.
+*****OUT: Sat Sep 26 19:47:01 EDT 2026
+
+*****IN: 
