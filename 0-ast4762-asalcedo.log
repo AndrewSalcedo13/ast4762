@@ -273,3 +273,19 @@ General1: Took quiz 1 today on mean median mode, 3 types of errors and gaussian 
 	--problem 4: Testing code works in stokes and submitting it. For further instructions please refer to log entry 'Tue Sep 15 15:24:35 EDT 2026' for homework 3, entry 'HOMEWORK 3(hw strikes back)'. The same in depth instructions were followed.
 General2: Ending log here, committing and pushing changes to GitHub to take screenshot, then running through stokes and submitting. Bye.
 *****OUT: Sun Sep 20 19:37:07 EDT 2026
+
+*****IN: Mon Sep 21 14:41:53 EDT 2026
+General1: Began lecture with example and activity on 3 different types of errors. Now we're going over hw4, peer review and rubric stuff. Finished with monte carlos in chapter 5.
+*****OUT: Mon Sep 21 16:35:36 EDT 2026
+
+*****IN: Wed Sep 23 16:20:32 EDT 2026
+General1: lecture, forgot to log in but I was in class
+*****OUT: Wed Sep 23 16:21:06 EDT 2026
+
+*****IN: Fri Sep 25 14:40:54 EDT 2026
+General1: Back in class actually starting practicum 3, did a little prep beforehand just downloading files needed for practicum, anyways starting now.
+  PRACTICUM 3(a phantom practicum): starting practicum 3, downloaded the necessary .dat file and function to be imported. 
+	--problem 1: practice fitting data with models
+a) read in the data with loadtxt(better for data files, no strings and reads in as array), separated the two data sets. plotted model 1, plot looks weird and scribbly.
+b) Fit the data from model 1, the data points have an uncertainty in the y of 0.5, this means that there is a possible 0.5 error in the y values, the closer the your uncertainty is to 1(or farther) the farther from the mean or true value you go., skewing a plot for example. finished here
+*****OUT: Fri Sep 25 16:22:57 EDT 2026
