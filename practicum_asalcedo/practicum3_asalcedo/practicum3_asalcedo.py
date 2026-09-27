@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[108]:
 
 
 import numpy
@@ -9,13 +9,13 @@ import matplotlib.pyplot as plt
 from linfit import *
 
 
-# In[106]:
+# In[109]:
 
 
 #linfit?
 
 
-# In[75]:
+# In[110]:
 
 
 #Problem 1
@@ -61,7 +61,7 @@ print(f"prob = {prob1}")
 print(f"there is a {prob1*100}% chance of getting a higher chi square")
 plt.figure()
 plt.plot(d1x, d1y, '.', label = 'data 1')
-plt.plot(d1x, yfit, label = 'fitted model', color = 'r')
+plt.plot(d1x, yfit1, label = 'fitted model', color = 'r')
 plt.xlabel("x")
 plt.ylabel("f(x)")
 plt.title("data 1 vs. linear fitted model 1")
@@ -103,7 +103,7 @@ plt.savefig("practicum3_asalcedo_problem1d_graph1.png")
 plt.show()
 
 
-# In[105]:
+# In[111]:
 
 
 #Problem 2
@@ -130,10 +130,4 @@ print(f"CCD subsample-\nmean: {CCD_ss_mean}\nmedian: {CCD_ss_med}\nstd: {CCD_ss_
 
 #The new mean median and std represent the sample much more accurately, because the median was used as opposed to the mean,
 #which was heavily affected by the 4 'bad' pixels and their much large(and thus more heavily weighted) values.
-
-
-# In[ ]:
-
-
-
 
