@@ -308,3 +308,14 @@ PRACTICUM 3(revenge of the practicum): starting problem 2 now.
  b) When masking the array to only contain values within 5 std of the median as opposed to the mean, the mean median and std represented the data as a whole much better and were closer to a majority of the values. This is due to the median being less affected by extreme values or outliers like the mean is(which was previously used).
  General 2: Practicum 2 completed ending log here to turn into a tar file so I can move on to hw 2. Later space cowboy
 *****OUT: Sun Sep 27 00:54:52 EDT 2026
+
+*****IN: Sun Sep 27 10:57:41 EDT 2026
+ General1: Fun fact! You will only accidentally misname your files after midnight, so try to get your work done before then otherwise you might have to spend and extra 15 minutes every time re-uploading files with proper names to stokes. Anyways I am back and moving on to homework 5.
+  HOMEWORK 5(a phantom hw): remember to study for quiz, the hw is only *technically two questions(excluding multiple parts and pedanctic questions). Moving on.
+	--Problem 1: finished, no parts asking for comments or instruction/explanations or screenshots so moving on.
+	--problem 2: continue to next question for sigma clipping
+	--problem 3: repeat problem 2b from practicum. If I understand this right, Im taking the sub sample from the practicum and putting it into the hw, then working with the subsample.
+ General2: made a mistake on the practicum gotta go fix it :(.
+  PRACTICUM 3(a new practicum): I made a critical error in the practicum 3. Basically when I used np.where to try and clip the array for CCD and its subsample I hand realized that I was using the indices instead of the actual values, if I had double checked my work and look at the median mean and std I would have seen the issue but it was 1:30am, the past is in the past. Anyways so quick sidebar while I go fix that, re-upload it to stokes, re-tar the file and then resubmit on webcourses. For the third time. ending log here to reupload the log and .ipynb file again. Back in a second.
+*****OUT: Sun Sep 27 11:20:26 EDT 2026
+

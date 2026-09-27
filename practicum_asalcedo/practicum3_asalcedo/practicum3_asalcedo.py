@@ -103,7 +103,7 @@ plt.savefig("practicum3_asalcedo_problem1d_graph1.png")
 plt.show()
 
 
-# In[111]:
+# In[112]:
 
 
 #Problem 2
@@ -122,7 +122,7 @@ CCD_std = np.std(CCD)
 print(f"std: {CCD_std}\n")
 
 #masked sub-sample
-CCD_ss = np.where( ( CCD_med - (5 * CCD_std) < CCD) & (CCD < CCD_med + (5 * CCD_std)) )
+CCD_ss = CCD[ ( CCD_med - (5 * CCD_std) < CCD) & (CCD < CCD_med + (5 * CCD_std)) ]
 CCD_ss_mean = np.mean(CCD_ss)
 CCD_ss_med = np.median(CCD_ss)
 CCD_ss_std = np.std(CCD_ss)
@@ -130,4 +130,10 @@ print(f"CCD subsample-\nmean: {CCD_ss_mean}\nmedian: {CCD_ss_med}\nstd: {CCD_ss_
 
 #The new mean median and std represent the sample much more accurately, because the median was used as opposed to the mean,
 #which was heavily affected by the 4 'bad' pixels and their much large(and thus more heavily weighted) values.
+
+
+# In[ ]:
+
+
+
 
