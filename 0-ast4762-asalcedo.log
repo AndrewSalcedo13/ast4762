@@ -300,4 +300,11 @@ b) Fit the data from model 1, the data points have an uncertainty in the y of 0.
  General2: Finished problem 1 from the practicum 3. I understand chi-square and reduced chi-square(I think) better now, taking a break before moving on to problem 2 and essentially starting the hw(5) BRB :/.
 *****OUT: Sat Sep 26 19:47:01 EDT 2026
 
-*****IN: 
+*****IN: Sat Sep 26 23:33:52 EDT 2026
+ General1: back at it
+PRACTICUM 3(revenge of the practicum): starting problem 2 now. 
+	--problem 2::
+ a) created array, the value of N is 10,000. Think of it as each 'pixel'(array element) is detecting 10,000 photons. When finding the mean and median of the original CCD array, the median was closer to N thanks to it being less affected by extreme(or 'bad') data values
+ b) When masking the array to only contain values within 5 std of the median as opposed to the mean, the mean median and std represented the data as a whole much better and were closer to a majority of the values. This is due to the median being less affected by extreme values or outliers like the mean is(which was previously used).
+ General 2: Practicum 2 completed ending log here to turn into a tar file so I can move on to hw 2. Later space cowboy
+*****OUT: Sun Sep 27 00:54:52 EDT 2026
