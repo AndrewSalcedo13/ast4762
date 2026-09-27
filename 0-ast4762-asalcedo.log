@@ -319,3 +319,11 @@ PRACTICUM 3(revenge of the practicum): starting problem 2 now.
   PRACTICUM 3(a new practicum): I made a critical error in the practicum 3. Basically when I used np.where to try and clip the array for CCD and its subsample I hand realized that I was using the indices instead of the actual values, if I had double checked my work and look at the median mean and std I would have seen the issue but it was 1:30am, the past is in the past. Anyways so quick sidebar while I go fix that, re-upload it to stokes, re-tar the file and then resubmit on webcourses. For the third time. ending log here to reupload the log and .ipynb file again. Back in a second.
 *****OUT: Sun Sep 27 11:20:26 EDT 2026
 
+*****IN: Sun Sep 27 11:50:19 EDT 2026
+ General1: forgot to log back into log, took about 20 minutes to reupload and fix everything. Back to homework 5
+ HOMEWORK 5(attack of the hw): Subsample is now correct.
+	--problem 2: Fixed the subsample from the practicum, now will repeated same process and clip the subsample to be within 5 std of the median similar to the practicum, to create a sub-subsample. The final mean and median after the second clipping are very close now. The final std matches what would be expected from a poisson distribution. This method will not remove every bad pixel only get rid of the influence of extreme values affecting the mean and std.
+	--problem 3: making a re-useable python function for sigma rejections. I will do this in a separate support file because we are going to be re-using this function later in the course as well, so if its in a separate file I can just import it cleanly. Function has been created in a separate file and imported, the next part says to run it on the data set from question 2, which I think is the original 400 element array with the 4 bad pixels so that's what Im going to use. My function works and the final mean and std using the function matches what was previously calculated.
+	--problem 4: log into stokes, Testing code works in stokes and submitting it. For further instructions please refer to log entry 'Tue Sep 15 15:24:35 EDT 2026' for homework 3, entry 'HOMEWORK 3(hw strikes back)'. The same in depth instructions were followed as those seen in problem 5 of homework 3.
+General2: Finishing log here to go through stokes submission process.
+*****OUT: Sun Sep 27 15:55:00 EDT 2026
