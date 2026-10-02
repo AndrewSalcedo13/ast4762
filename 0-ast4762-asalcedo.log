@@ -327,3 +327,30 @@ PRACTICUM 3(revenge of the practicum): starting problem 2 now.
 	--problem 4: log into stokes, Testing code works in stokes and submitting it. For further instructions please refer to log entry 'Tue Sep 15 15:24:35 EDT 2026' for homework 3, entry 'HOMEWORK 3(hw strikes back)'. The same in depth instructions were followed as those seen in problem 5 of homework 3.
 General2: Finishing log here to go through stokes submission process.
 *****OUT: Sun Sep 27 15:55:00 EDT 2026
+
+*****IN: Mon Sep 28 14:38:20 EDT 2026
+ General1: lecture today. going over hw 5. reviewed hw 5 and practicum 3, finished with bevington data reduction and error analysis for now and moved on to handbook of CCD astronomy, ch 1, 2 and 3.1/3.5 need to be read. finished lecture.
+*****OUT: Mon Sep 28 16:23:02 EDT 2026
+
+*****IN: Wed Sep 30 15:17:56 EDT 2026
+  General1: took quiz 2 on error propagation, definitely failed because I forgot to find the actual value, not just the propagated error, continuing on lecture downloaded the week 7 stuff that we will also be looking at. Lecture ended.
+*****OUT: Wed Sep 30 16:21:23 EDT 2026
+
+*****IN: Thu Oct  1 22:13:06 EDT 2026
+  General1: The class is picking up now, practicum 4 as well as hw 6 and 7 :) have been assigned, because they're all related. So were looking at the practicum right now to see what we can do before tomorrow, just starting log to record any potential progress made. lettuce begin.
+  PRACTICUM 4(a phantom practicum): lots of instructions basically were going to be handling large FITS files so don't store any extra FITS files etc between steps because then they get very large and inconvenient, NO READING OR WRITING FITS FILES that were not requested. Also where possible use the "+=" and "*=" operators working on these arrays.
+	--problem 1: Make a new hw6 folder NOT a practicum folder. I went to terminal, went to the proper directory and then made a new directory within that directory named hw 6.
+ >> cd Documents/GitHub/ast4762/hw_asalcedo  >>mkdir hw6_asalcedo 
+that should be how its done, in my ultra specific case, butt those commands are the ones you use. 
+	--problem 2: the actual work, making jupyter notebook and be back with updates. I think since we're defining variables and messing with data from hw6 that we should have the hw6 data downloaded so Im going to do that. 
+a) for this question, the two variables are holding the NAMES of the directory and extension, the variables DO NOT access the directory they should be strings.
+b) done made the two empty lists(one for target images and one for dark) then populated them with the relevant correctly named files in datadir.
+c) prints informative statements
+d) reading any one object file from obj file, ill just do the last one since we just named it. Im a little hesitant though as we are supposed to be careful about reading the fits files and hardcoding things etc. I don't remember if there is a specific way we are supposed to read in fits files so im winging it. Figured it out, the instructions say to determine the data array sizes and assign those to variables. Im assuming that means the length of the array and not the array itself.
+e) defined the two variables, overthought it then realized it was just asking for the length. You wouldn't want to hardcode the number of files in either objfile or darkfile in case the number of files in the data directory(whether for the object or dark files) changes, more images are taken or some removed.
+	--problem 3: we're pushing through because I realized im almost done so.
+a)created the two arrays nothing crazy
+b)populated the arrays with for loops. When using the opened data file the indices [0] refers to the first or main image in the FITS file. Header provides all the info on the file.
+c) EXTRA CREDIT: Object and Dark images don't necessarily have to be taken at the same time, only within the same session, which is why we are more concerned with(and printed) the date of the observation and not the time. Knowing the time would also be especially unhelpful if the images weren't even taken on the same date.
+  General2: finished the practicum, won't submit it right now Ill save that for tomorrow but I will save and push all my changes to GitHub, will copy the log over when I submit in case any additional changes are made. g'night.
+*****OUT: Fri Oct  2 00:35:15 EDT 2026
