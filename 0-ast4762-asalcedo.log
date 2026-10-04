@@ -354,3 +354,21 @@ b)populated the arrays with for loops. When using the opened data file the indic
 c) EXTRA CREDIT: Object and Dark images don't necessarily have to be taken at the same time, only within the same session, which is why we are more concerned with(and printed) the date of the observation and not the time. Knowing the time would also be especially unhelpful if the images weren't even taken on the same date.
   General2: finished the practicum, won't submit it right now Ill save that for tomorrow but I will save and push all my changes to GitHub, will copy the log over when I submit in case any additional changes are made. g'night.
 *****OUT: Fri Oct  2 00:35:15 EDT 2026
+
+*****IN: Fri Oct  2 14:41:27 EDT 2026
+  General1: In class now doing lecture, going over practicum 4, some confusion on naming convention for hw 6 so will ask about that after class. Use getdata not, don't open and then .data file. Went over practicum and something regarding hw 7 with some research papers and readings etc. also re explained chi-square to class, makes maybe a little bit more sense now(like 5% more). Will ask about the hw6 naming conventions and files. it says to make a hw7 homework file, but then inside will be a hw6 .py or ipynb file so a little strange and confusing. 
+*****OUT: Fri Oct  2 16:32:33 EDT 2026
+
+*****IN: Sun Oct  4 11:35:54 EDT 2026
+  General1: The prof said he would update the instructions for hw 6 since the naming conventions for all the files was a bit confusing, but he hasn't don't it yet. So for now Im just going to follow the 'wrong'? instructions and then rename the file later should it come to that. so without further ado.
+  HOMEWORK 6(a phantom hw): important distinction to clear up any confusion. Practicum 4 contains a hw6 .py file, for this assignment hw 6 it says to create a hw7 folder/directory(think submitted tar file) but inside I think will also be the same hw6 .py file since we are working with the same data and practicum 4 the assignment was supposed to be a preamble to hw6, its all confusing and the professor said he would clear it up but until then, we preserve.
+	--Problem 1: We actually don't need to explain how we made the hw 7 file this time so I won't tell you.
+	--problem 2:
+a) I am not sure if the function needs to be kept in a separate .py file since it is only one line of code. Not entirely sure it needs to be its own function at all but I will keep it there. Without using loops, you take the median across whatever axis contains the number of images/exposure/files you have. This should then return the median value for each pixel and a 2d array the same shape as ny, nx(whatever the dimensions of your pixels), don't need to do anything special to get this behavior.
+b)
+c)not crazy just adding a header, though slightly confusing I think I may have accidentally done it twice
+d) a little bit more confusing but the fits file is there
+e) the fits file is there too, I had to turn the fits.writeto commands into comments, because the fits files are already made so if I leave them in it returns an error. But I did leave the comments in and the fits files made will be in the hw folder so It shouldn't be a problem.
+	--problem 4: testing it works in stokes, this will be a two for one, because if the code works for homework 7(hw6.py file), then it should also run for practicum 4(same hw6.py file) since its running based off of the same code. Like practicum 4 is part 1 and homework 7 is part 2 containing all the work from practicum 4 plus the additional work required for the homework, but both parts are in the same hw6.py file.
+  General2: checking to see if all this works on stokes so ending log so I can organize my folders. I will be submitting practicum 4 today right now, but homework 7 will not be submitted until monday to ensure the instructions are not changed, but everything will be uploaded to stokes and ready for tar and submission just in case no changes are made. Bye
+*****OUT: Sun Oct  4 13:29:27 EDT 2026
