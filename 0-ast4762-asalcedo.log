@@ -372,3 +372,25 @@ e) the fits file is there too, I had to turn the fits.writeto commands into comm
 	--problem 4: testing it works in stokes, this will be a two for one, because if the code works for homework 7(hw6.py file), then it should also run for practicum 4(same hw6.py file) since its running based off of the same code. Like practicum 4 is part 1 and homework 7 is part 2 containing all the work from practicum 4 plus the additional work required for the homework, but both parts are in the same hw6.py file.
   General2: checking to see if all this works on stokes so ending log so I can organize my folders. I will be submitting practicum 4 today right now, but homework 7 will not be submitted until monday to ensure the instructions are not changed, but everything will be uploaded to stokes and ready for tar and submission just in case no changes are made. Bye
 *****OUT: Sun Oct  4 13:29:27 EDT 2026
+
+*****IN: Wed Oct  7 14:48:50 EDT 2026
+  general1: Lecture today and possibly next practicum as well, I at least read 2 of the 4 journal articles in preparation. Currently going over hw6 which was somewhat of a nightmare(submission, naming and organization wise). Think pair share: Is the moon made of cheese? The material the moon is made of might affect some of the intrinsic properties of the moon, some competing ideas might be that the moon is not made of cheese. We could figure this out by taking measurements to determine the composition of the moons materials and comparing it to cheese. loads of systematic errors, by correcting for the error. in class finished it.
+*****OUT: Wed Oct  7 16:24:42 EDT 2026
+
+*****IN: Sat Oct 10 12:09:15 EDT 2026
+  General1: Working on hw 7, I renamed all the homework assignments to fit whatever the canvas assignment said, not the instructions because all that just got confusing. So beginning homework 7.
+  HOMEWORK 7(a phantom hw): Starting hw 7, no practicum this week, but we also had to read 4 articles. I read 3 of the four on the last one now, I also took notes on them(general overview, important parts of methods and results). moving on. made the publication ready plot will do the function later.
+*****OUT: Sat Oct 10 14:41:24 EDT 2026
+
+*****IN: Sat Oct 10 23:19:16 EDT 2026
+  General1: back working on the hw.
+  HOMEWORK 7(attack of the hw): made some progress, instructions kind of confusing but function has been made. Im tired I'll finish tomorrow.
+*****OUT: Sat Oct 10 00:56:21 EDT 2026
+
+*****IN: Sun Oct 11 20:48:32 EDT 2026
+  General1: I was lazy, finishing hw 7
+  HOMEWORK 7(revenge of the hw): working on it what else can I say
+	--Problem 3:
+b)
+ii)The fit is not believable, since a warning was issues about the covariance matrix being unable to be reliably calculate the uncertainties of the given parameters, this may be due to the abrupt edges in the data and box fit/function. Since the uncertainties couldn't be reliably calculated, the next course of action would be to compare the fit to the data.
+c) Using error propagation formula to add the errors of star radius and transit depth in quadrature. 
