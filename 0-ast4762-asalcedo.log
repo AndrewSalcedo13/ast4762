@@ -394,3 +394,5 @@ e) the fits file is there too, I had to turn the fits.writeto commands into comm
 b)
 ii)The fit is not believable, since a warning was issues about the covariance matrix being unable to be reliably calculate the uncertainties of the given parameters, this may be due to the abrupt edges in the data and box fit/function. Since the uncertainties couldn't be reliably calculated, the next course of action would be to compare the fit to the data.
 c) Using error propagation formula to add the errors of star radius and transit depth in quadrature. 
+  General2: Instructions super vague for the last few questions and graphs, so I just saved it all as .png files(for the plots) and then pdf's for the notes since I wrote them on paper and for the planets uncertainty, I wasn't sure if it was supposed to be coded or just the answer was needed or what so I included a pdf of my calculations. Anyways going to submit now so ending log here.
+*****OUT: Mon Oct 12 01:58:24 EDT 2026
