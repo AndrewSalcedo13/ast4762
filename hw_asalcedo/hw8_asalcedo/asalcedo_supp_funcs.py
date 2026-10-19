@@ -1,5 +1,43 @@
 import numpy as np
 
+
+def skycormednorm(sub_obj_frame, norm_sky, region=None):
+    """
+    Subtracts a normalized sky frame from an object frame after
+    restoring the sky frame to the appropriate brightness scale.
+
+    Parameters
+    ----------
+    sub_obj_frame : array_like
+        2D dark-subtracted object frame.
+
+    norm_sky : array_like
+        2D dark-subtracted, normalized sky frame.
+
+    region : tuple, optional
+        Coordinates of two opposite corners of the region used to
+        calculate the normalization factor, specified as
+        ((y1, x1), (y2, x2)). If None, the entire object frame is used.
+
+    Returns
+    -------
+    sky_sub : ndarray
+        2D array containing the object frame after sky subtraction.
+    """
+    if region is None:
+        norm_factor = np.median(sub_obj_frame)
+    else:
+        (y1, x1), (y2, x2) = region
+        norm_factor = np.median(sub_obj_frame[y1:y2, x1:x2])
+
+    sky = norm_sky * norm_factor
+    sky_sub = sub_obj_frame - sky
+
+    return sky_sub
+
+
+##################################################################
+
 def normmedcomb(array3d, region = None):
     """
     Median-combines a 3D array of normalized images by first normalizing the images/data then finding the median value

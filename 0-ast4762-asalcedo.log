@@ -406,3 +406,12 @@ c) Using error propagation formula to add the errors of star radius and transit 
   PRACTICUM 5(a phantom practicum): 
 	--Problem 1: didn't correct any errors made within hw 7(did not find any). Included them within practicum 5 but will also be sure to include it in the hw 8 directory once made.
   General2: practicum didn't ask for anything else in the comments or log etc so committing to GitHub and pushing to origin as well as ensuring it runs in stokes then moving on to hw 8. 
+  HOMEOWORK 8(a phantom hw): starting hw 8
+	--problem 1: Made the directory the same way I always do, was a process to make sure all the proper files included in practicum 5 were also included in the hw directory as well but I think everything is there.
+	--problem 2: making a new ALMOST identical function. but slightly different. I've confused myself with all the different variable names and files. So stopping here and ill organize and submit tomorrow but Im almost sure my function and process are right and its just a matter of going through and organizing/understanding everything like my variable names and locations.
+*****OUT: Mon Oct 19 01:17:33 EDT 2026
+
+******IN: Mon Oct 19 08:46:07 EDT 2026
+  General1: Back figuring it out
+  HOMEWORK 5(attack of the hw): back trying to figure out my variables. I'm getting a four dimensional array somehow. I finally made sense of it all, I think, but it works so yeah, Im going to wait to collaborate with a classmate on whether some of this is correct or not but unti then committing and pushing on GitHub and will submit later.
+*****OUT: Mon Oct 19 09:46:29 EDT 2026

@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import matplotlib.ticker as ticker
 from scipy.optimize import curve_fit
-from window_function import*
+from asalcedo_supp_funcs import*
 
 
 # In[3]:
@@ -48,7 +48,7 @@ plt.savefig('hw7_asalcedo_problem3a_graph1')
 
 #b) 
 #i) window function made and imported
-from window_function import*
+from asalcedo_supp_funcs import*
 #ii) curve fit 
 p0 = [0.0, 0.02, 0.99]                                  #center, width and height values
 popt, pcov = curve_fit(window, time, Norm_flux, p0=p0)  #makes a fit for the flux, based on box params

@@ -1,5 +1,21 @@
 import numpy as np
 
+def skycormednorm(obj_frame, norm_sky, region = None):
+    """
+    
+    """
+    if region is None:               
+            norm_fact = np.median(expo)    #takes median of entire exposure(no selected region)
+    else:
+        (y1, x1), (y2, x2) = region
+        norm_fact = np.median(expo[y1:y2, x1:x2])     #takes median of selected region of exposure
+        
+    sky_frame = norm_sky * norm_fact
+    sky_sub = obj_frame - sky_frame
+    return sky_sub
+
+##################################################################
+
 def normmedcomb(array3d, region = None):
     """
     Median-combines a 3D array of normalized images by first normalizing the images/data then finding the median value
