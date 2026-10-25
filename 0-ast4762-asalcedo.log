@@ -415,3 +415,16 @@ c) Using error propagation formula to add the errors of star radius and transit 
   General1: Back figuring it out
   HOMEWORK 5(attack of the hw): back trying to figure out my variables. I'm getting a four dimensional array somehow. I finally made sense of it all, I think, but it works so yeah, Im going to wait to collaborate with a classmate on whether some of this is correct or not but until then committing and pushing on GitHub and will submit later.
 *****OUT: Mon Oct 19 09:46:29 EDT 2026
+
+*****IN: Wed Oct 21 15:05:59 EDT 2026
+  Genereal1: In lecture going over stuff, I want to know more about the point spread function(PSF) its related to my CREOL stuff I think. finished ICA for PSF cont_center_classroom.
+lecture finished.
+*****OUT: Wed Oct 21 16:23:15 EDT 2026
+
+*****IN: Sun Oct 25 12:12:10 EDT 2026
+  General1: Working on the practicum 6 and hw 9 today, hopefully I get it all done within the next couple of hours.
+  PRACTICUM 6: did some very rudimentary prep beforehand barely worth mentioning, so onto the actual assignment.
+	--Problem 1: did it. Im not sure how to write a bool to a fits file so Im gonna have to check up on that one but other than that single error everything else seems to be running smoothly enough so.
+	--problem 2: I just turned finding files and loading them as 3d arrays into a function(basically just copying from hw6) its pretty amazing now. It is done after much work and deliberation. Well technically the fits files parts are not completely done because of some fits stuff but the important work is done.
+  General2: Ok I finished basically practicum 6  committing and pushing files to origin on GitHub, will return later to do hw 9, willl wait until hw 9 is complete to submit the practicum. BYe.
+*****OUT: Sun Oct 25 17:23:04 EDT 2026
