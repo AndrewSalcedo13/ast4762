@@ -428,3 +428,11 @@ lecture finished.
 	--problem 2: I just turned finding files and loading them as 3d arrays into a function(basically just copying from hw6) its pretty amazing now. It is done after much work and deliberation. Well technically the fits files parts are not completely done because of some fits stuff but the important work is done.
   General2: Ok I finished basically practicum 6  committing and pushing files to origin on GitHub, will return later to do hw 9, willl wait until hw 9 is complete to submit the practicum. BYe.
 *****OUT: Sun Oct 25 17:23:04 EDT 2026
+
+*****IN: Sun Oct 25 22:30:39 EDT 2026
+  General1: uuhhhhhhh back working on the homework this time after a very nice meal.
+  HOMEWORK 9(a phantom hw): working on it
+	--problem 1: imported all the previous assignments, it was a mess so I organized all the past assignments into a past_assinments_asalcedo directory(which I will just continue to do from now on) just for organizations sake and decluttering the directory, but I am ready to begin working. Im not sure why when I organized it earlier the imports were working perfectly fine but now all the previous imports need to be fixed as well, I don't really feel like doing that currently so apologies to Cameron but its all just going to go into the trashcan that is the hw9 directory. I will fix all these file paths later for hw10(and potentially the final project)
+	--problem 2: lots of confusing instructions, Ill be back with updates once I understand.  Finished question 2. some of the calculations seemed redundant but it is supposed to be important for larger data sets, I didn't realize I was just supposed to directly copy the nan arrays for the larger photometry array, I thought there was a command or function that did that. Anyways onto problem 3. 
+	--problem 3: We did not make it to using he gaussian.py function in class, so looking and learning right now. It's late and Im tired and my imports had stopped working(see end of problem 1 for more details. So im going to sleep and finishing tomorrow. 
+*****OUT: Mon Oct 26 01:41:05 EDT 2026

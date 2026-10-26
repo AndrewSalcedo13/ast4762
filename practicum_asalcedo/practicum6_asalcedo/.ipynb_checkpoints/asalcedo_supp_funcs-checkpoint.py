@@ -5,7 +5,7 @@ from astropy.io import fits
 def filefind(datadir, fext, fname, load_data = False):
     """
     Finds files in a specified directory whose names contain a given
-    substring and returns a list of matching filenames.
+    substring and returns a list of matching filenames. This was made with .fits files in mind(especially the load data) argument
 
     Parameters
     ----------
