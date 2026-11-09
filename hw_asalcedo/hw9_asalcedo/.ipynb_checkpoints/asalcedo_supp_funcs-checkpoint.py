@@ -2,6 +2,55 @@ import numpy as np
 import os
 from astropy.io import fits
 
+def apphot(obj_img, pix_mask, apphot_r, annr_i, annr_o, obj_cen):
+    '''
+    obj_img - the object image(I think this would be like an array)
+    pix_mask - mask/boolean array of good and bad pixels(obv boolean array)
+    apphot_r - radius of the aperature used to measure total flux from the object in the object image(measure in pixels)
+    annr_i - inner sky annulus radii
+    annr_o - outter sky annulus radii
+    obj_cen - center coordinates of object(a tuple)
+    '''
+    #make boolean centered on obj_cen with a radius of annr_o
+    y_c, x_c = obj_cen                                #get coordinates for center of object image
+
+    #defining the initial and final points of y and x(creating sub-image to include outer annulus)
+    y_i = max(0, int(np.floor(y_c - annr_o)))
+    y_f = min(obj_img.shape[0], int(np.ceil(y_c + annr_o)) + 1)
+    x_i = max(0, int(np.floor(x_c - annr_o)))
+    x_f = min(obj_img.shape[1], int(np.ceil(x_c + annr_o)) + 1)
+
+    #sub-image and mask being created
+    sub_img = obj_img[y_i:y_f, x_i:x_f]        #applies coordinates previously defined to object image
+    sub_msk = pix_mask[y_i:y_f, x_i:x_f]       #takes into account which pixels are good and bad
+    sub_cen = (y_c - y_i, x_c - x_i)
+
+    #make sky annulus, both are using the disk function and in the shape of 
+    in_ann = disk(annr_i, sub_cen, sub_img.shape)     #took the shape of the sub image to make dimensions same as sub image
+    out_ann = disk(annr_o, sub_cen, sub_img.shape)    #makes math easier down the line since annulus now has same dimensions
+    annulus = out_ann & ~in_ann                       #'~' operator same as logical not, reverses every value in boolean
+
+    #Calculating avg sky pixel within annulus
+    avg_sky_ann = np.mean(sub_img[annulus & sub_msk]) #makes sure to include only good pixels within annulus
+    
+    #subtract from every value in sub
+    subt_sub_img = sub_img - avg_sky_ann
+
+    #Using disk again to make a mask for the aperature
+    ap_msk = disk(apphot_r, sub_cen, sub_img.shape)
+
+    #calculate total stellar flux within aperature
+    stllr_flx = np.sum(subt_sub_img[ap_msk & sub_msk])   
+    #calculate stellar flux of the photometry aperature using only whats within the aperature mask and the good pixels
+
+    #return bad pixels
+    bad_pix = np.sum(ap_msk ~sub_msk) 
+
+    return(stllr_flx, avg_sky_ann, bad_pix)
+
+
+##################################################################
+
 def filefind(datadir, fext, fname, load_data = False):
     """
     Finds files in a specified directory whose names contain a given
